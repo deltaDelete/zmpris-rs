@@ -5,7 +5,7 @@ edition = "2021"
 license = "LGPL-2"
 
 [dependencies]
-tokio = { version = "~1.40", features = ["macros", "rt"] }
+tokio = { version = "~1.41", features = ["macros", "rt"] }
 log = "~0.4"
 zbus = { version = "~5.0" }
 zbus_macros = "~5.0"
@@ -16,4 +16,4 @@ anyhow = "~1.0"
 
 [dev-dependencies]
 test-log = "0.2.16"
-tokio = { version = "~1.40", features = ["time"] }
+tokio = { version = "~1.41", features = ["time"] }
